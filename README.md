@@ -34,7 +34,8 @@ M1だとエラーが発生する。そのため、以下を行ってデプロイ
 
 [M1 MacでHeroku containerにデプロイしたら `Exec format error` と出て困った話](https://zenn.dev/daku10/articles/m1-heroku-container-trouble-exec-format-error)
 
-example ↓↓↓
+
+### example
 
 ```
 docker buildx build . --platform linux/amd64 -t yamatatsu/quiet-lake-70082:latest
